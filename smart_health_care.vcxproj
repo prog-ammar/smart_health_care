@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="file1.cpp" />
+    <ClCompile Include="hussain OPD-Emergency with ID.cpp" />
     <ClCompile Include="hussain.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
