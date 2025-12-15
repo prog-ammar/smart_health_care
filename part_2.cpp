@@ -116,7 +116,8 @@ private:
     map<int, OPD_Patient> opd_patients;
     priority_queue<Emergency_Patient, vector<Emergency_Patient>, compare_sensitivity> emergency_queue;
     map<int, Emergency_Patient> emergency_patients;
-    int id_counter = 1;
+    int opd_id_counter = 1;
+    int em_id_counter = 1;
 
 public:
 
@@ -265,10 +266,10 @@ public:
         p.blood = p_blood;
         p.gender = p_gender;
         p.department = p_dep;
-        p.id = id_counter++;
+        p.id = em_id_counter++;
         p.relative_number = p_r_contact;
         p.sensitivity = sensitivity;
-        emergency_patients[id_counter] = p;
+        emergency_patients[em_id_counter] = p;
         emergency_queue.push(p);
     }
 
@@ -281,9 +282,9 @@ public:
         p.gender = p_gender;
         p.contact_number = p_contact;
         p.department = p_dep;
-        p.id = id_counter++;
-        set_symptoms(id_counter, anx, dep, bleed, b_issue, pain, nau, uncous, fever, diz, c_p);
-        opd_patients[id_counter] = p;
+        p.id = opd_id_counter++;
+        set_symptoms(opd_id_counter, anx, dep, bleed, b_issue, pain, nau, uncous, fever, diz, c_p);
+        opd_patients[opd_id_counter] = p;
         opd_queue.push(p);
 
     }
@@ -330,19 +331,22 @@ public:
         }
     }
 
-    void accessPatientByID(int p_id)
+    Emergency_Patient accessEmByID(int p_id)
     {
-
-        if (p_id <= opd_patients.size())
-        {
-            OPD_Patient p = opd_patients[p_id];
-            cout << "[OPD] Patient name: " << p.name << " Department: " << p.department << endl;
-        }
+        if (emergency_patients.count(p_id) < 0)
+            cout << "Patient Dont Exist" << "\n";
         else
-        {
-            Emergency_Patient p = emergency_patients[p_id];
-            cout << "[Emergency] Patient name: " << p.name << " Sensitivity: " << p.sensitivity << endl;
-        }
+            return emergency_patients[p_id];
+        return ;
+    }
+
+    OPD_Patient accessOPDByID(int p_id)
+    {   
+        if (opd_patients.count(p_id) < 0)
+            cout << "Patient Dont Exist" << "\n";
+        else
+            return opd_patients[p_id];
+        return ;
     }
 
 };
@@ -370,5 +374,4 @@ int main()
 {
     Patient_Handler ph;
     ph.read_from_all_files();
-    ph.accessPatientByID(1);
 }
