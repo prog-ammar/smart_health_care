@@ -21,5 +21,8 @@
     <ClCompile Include="hussain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="hussain OPD-Emergency with ID.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
