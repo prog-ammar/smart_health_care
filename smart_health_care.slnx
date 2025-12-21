@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="smart_health_care.vcxproj" />
+  <Project Path="smart_health_care.vcxproj" Id="fdc340ef-da28-493a-98f4-392a5541a912" />
 </Solution>
