@@ -1,0 +1,70 @@
+patient_id,name,age,blood,gender,contact_number,department
+O001,David Williams,68,O+,M,6939585183,Dentistry
+O002,Emily Smith,39,A+,F,8228188767,ENT-Eye
+O003,Laura Jones,46,B+,F,8397029847,Orthopedic
+O004,Michael Johnson,42,O-,M,9019443432,Cardiology
+O005,David Wilson,63,AB+,M,7734463155,General
+O006,Linda Jones,60,O+,F,7561777264,Dentistry
+O007,Alex Johnson,34,B-,M,6278710077,ENT-Eye
+O008,David Davis,47,A+,M,7090558393,Orthopedic
+O009,Laura Davis,52,O-,F,7060324619,Cardiology
+O010,Michael Taylor,22,B+,M,7081396733,General
+O011,Emily Jones,57,AB-,F,8990604070,Dentistry
+O012,Laura Davis,32,O+,F,8135666049,ENT-Eye
+O013,Laura Johnson,33,B+,F,9059178882,Orthopedic
+O014,Alex Taylor,56,O-,M,7292262512,Cardiology
+O015,Sarah Johnson,59,AB+,M,6636028516,General
+O016,Michael Taylor,23,O+,M,7223380592,Dentistry
+O017,Jane Jones,32,B-,F,6158428240,ENT-Eye
+O018,Laura Wilson,44,A+,F,7145815738,Orthopedic
+O019,Sarah Miller,48,O-,M,8618058864,Cardiology
+O020,Jane Moore,21,B+,F,8158989953,General
+O021,Michael Wilson,22,O+,M,7765390555,Dentistry
+O022,John Brown,68,AB-,M,6221099573,ENT-Eye
+O023,Linda Johnson,31,B+,M,6141951830,Orthopedic
+O024,Sarah Brown,32,O-,F,7196777444,Cardiology
+O025,Robert Wilson,57,O+,M,7482069727,General
+O026,John Taylor,21,B-,M,9900972256,Dentistry
+O027,Linda Moore,25,AB+,F,8724518272,ENT-Eye
+O028,Alex Moore,30,O+,M,7028910482,Orthopedic
+O029,David Smith,18,B+,M,8923607677,Cardiology
+O030,Emily Moore,59,O-,M,6622318721,General
+O031,Robert Miller,38,B+,M,8280346676,Dentistry
+O032,Alex Moore,42,O+,M,8102183595,ENT-Eye
+O033,Michael Wilson,53,B-,F,7923214041,Orthopedic
+O034,Alex Smith,73,O-,F,8374657733,Cardiology
+O035,David Wilson,30,AB+,F,7039619487,General
+O036,Michael Wilson,26,O+,M,8545613046,Dentistry
+O037,Robert Williams,24,B+,M,8886800195,ENT-Eye
+O038,David Smith,32,O-,M,6347262390,Orthopedic
+O039,Jane Wilson,73,AB-,F,9271131338,Cardiology
+O040,Emily Williams,51,B+,M,7587653815,General
+O041,Robert Williams,72,O+,M,7020645498,Dentistry
+O042,Jane Smith,71,B-,F,7040069008,ENT-Eye
+O043,Linda Brown,45,O-,M,9127665406,Orthopedic
+O044,Robert Taylor,47,AB+,F,9449458981,Cardiology
+O045,Linda Miller,57,O+,F,7579616535,General
+O046,Michael Taylor,37,B-,F,8019925828,Dentistry
+O047,Jane Moore,28,O-,M,8715732851,ENT-Eye
+O048,Emily Miller,40,B+,M,8720989381,Orthopedic
+O049,David Moore,51,O+,M,7712937941,Cardiology
+O050,Laura Wilson,30,AB-,M,8301134730,General
+O51,John Doe,30,O+,Male,0300-1234567,Common Cold
+O52,John Doe,30,O+,Male,0300-1234567,Common Cold
+O53,John Doe,30,O+,Male,0300-1234567,Common Cold
+O54,am,7,A-,Male,8998,General Physician
+O55,zain,7,A+,Male,023423423,General Physician
+O56,Ammar saleen,18,A+,Male,03120085231,General Physician
+O57,muzammil abbasi,12,A-,Male,03120085231,General Physician
+O58,dfg,1,A+,Male,54353,General Physician
+O59,ttt,3,A+,Male,03123456789,General Physician
+O60,ammar,2,A+,Male,03333333333,General Physician
+O61,ammar,2,A+,Male,03333333333,General Physician
+O62,ammar,2,A+,Male,03333333333,General Physician
+O63,muzi,2,A+,Male,03338888888,General Physician
+O64,muzi,2,A+,Male,03338888888,General Physician
+O65,AMmar,4,A+,Male,03123456789,General Physician
+O66,Ammar,5,A+,Male,03123456789,General Physician
+O67,Ammar,5,A+,Male,03123456789,General Physician
+O68,Ammar,5,A+,Male,03123456789,General Physician
+O69,Memoona,45,A+,Female,03123456789,Chicken pox
